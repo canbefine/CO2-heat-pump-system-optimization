@@ -11,7 +11,7 @@ tensorflow 1.0
 gym 0.8.0
 """
 """
-Modified by ChenJiongde/c00500953
+Modified by Keven
 """
 import tensorflow.compat.v1 as tf
 tf.disable_v2_behavior()
