@@ -23,7 +23,7 @@ class TmsEnv(object):
     def __init__(self):
         self.dymola.clear() # 清理dymola进程，这步可去除
         # 打开绝对路径中的dymola文件
-        self.dymola.openModel('C:\\Users\\c00500953\\PycharmProjects\\example1\\Dymola\\examples\\CO2\\CO2_2.mo')
+        self.dymola.openModel('C:\\Users\\CO2.mo')
         # 编译对应的Dymola文件
         self.dymola.compile('CO2_2')
         # 定义并初始化一些变量和函数
@@ -135,7 +135,7 @@ class TmsEnv(object):
 #
 #     # dymola = dy.Dymola()
 #     # dymola.clear()
-#     # dymola.openModel('C:\\Users\\c00500953\\PycharmProjects\\example1\\Dymola\\examples\\CO2\\CO22222.mo')
+#     # dymola.openModel('C:\\Users\\CO2.mo')
 #     # dymola.compile('CO22222')
 #     env = TmsEnv()
 #     # env.reset()
