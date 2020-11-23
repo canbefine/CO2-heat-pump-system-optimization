@@ -118,7 +118,7 @@ class TmsEnv(object):
         return res
 
     def readTxt(self):
-        with open(r'C:\Users\c00500953\RL\Lib\site-packages\dympy\dymfiles\dslog.txt', 'r') as f:
+        with open(r'C:\Users\..\RL\Lib\site-packages\dympy\dymfiles\dslog.txt', 'r') as f:
             lines = f.readlines()
             for lines in lines:
                 if "... Warning message from dymosim" in lines:
